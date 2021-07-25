@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 2e9e760de0f9794469cb90d061b458f5
+guid: 56b790c9261e51f4da1e483cc29aa423
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6888756438569675735
-    second: New Piskel (1)_0
+      213: -4168523715565770878
+    second: "\uD0C0\uC77C_0"
   - first:
-      213: 9173839873224666002
-    second: New Piskel (1)_1
+      213: -3289157356976479638
+    second: "\uD0C0\uC77C_1"
   - first:
-      213: -745645855993587873
-    second: New Piskel (1)_2
+      213: 182096661679388329
+    second: "\uD0C0\uC77C_2"
   - first:
-      213: 4123733795721074919
-    second: New Piskel (1)_3
+      213: -2258649511021955652
+    second: "\uD0C0\uC77C_3"
+  - first:
+      213: -3995314670832964940
+    second: "\uD0C0\uC77C_4"
+  - first:
+      213: 5625415592424579345
+    second: "\uD0C0\uC77C_5"
+  - first:
+      213: 2535421198291124978
+    second: "\uD0C0\uC77C_6"
+  - first:
+      213: 9022442572887073967
+    second: "\uD0C0\uC77C_7"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -103,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel (1)_0
+      name: "\uD0C0\uC77C_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -117,14 +129,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9249ede64883660a0800000000000000
-      internalID: -6888756438569675735
+      spriteID: 28729e734cd6626c0800000000000000
+      internalID: -4168523715565770878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_1
+      name: "\uD0C0\uC77C_1"
       rect:
         serializedVersion: 2
         x: 1600
@@ -138,14 +150,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29beed572c6005f70800000000000000
-      internalID: 9173839873224666002
+      spriteID: a62ed0f7fc09a52d0800000000000000
+      internalID: -3289157356976479638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_2
+      name: "\uD0C0\uC77C_2"
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a63f22f2ffe68200800000000000000
+      internalID: 182096661679388329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uD0C0\uC77C_3"
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb53d6f8c3aa7a0e0800000000000000
+      internalID: -2258649511021955652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uD0C0\uC77C_4"
       rect:
         serializedVersion: 2
         x: 0
@@ -159,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5792496b0fe6a5f0800000000000000
-      internalID: -745645855993587873
+      spriteID: 4ba2817997acd88c0800000000000000
+      internalID: -3995314670832964940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_3
+      name: "\uD0C0\uC77C_5"
       rect:
         serializedVersion: 2
         x: 1600
@@ -180,8 +234,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e85a3ae9027a3930800000000000000
-      internalID: 4123733795721074919
+      spriteID: 11129643dad711e40800000000000000
+      internalID: 5625415592424579345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uD0C0\uC77C_6"
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f243288520af2320800000000000000
+      internalID: 2535421198291124978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uD0C0\uC77C_7"
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4ab4397b7263d70800000000000000
+      internalID: 9022442572887073967
       vertices: []
       indices: 
       edges: []

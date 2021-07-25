@@ -11,9 +11,9 @@ namespace Assets.Script
         public static readonly int Width = 100;
         public static readonly int Height = 100;
 
-        private char[,] NewMap = new char[Map.Width, Map.Height];
+        private int[,] NewMap = new int[Map.Width, Map.Height];
 
-        public char[,] Generate()
+        public int[,] Generate()
         {
             var rand = new Random();
 
@@ -23,7 +23,7 @@ namespace Assets.Script
                 int y = rand.Next(0, Map.Height - 1);
                 for (int j = 0; j < Map.Width / 5; j++)
                 {
-                    NewMap[x, y] = '#';
+                    NewMap[x, y] = 1;
                     int select = rand.Next(1, 100);
                     if (select > 50)
                         x += rand.Next(-1, 1);
@@ -53,3 +53,41 @@ namespace Assets.Script
         }
     }
 }
+
+
+/*
+namespace MapV2
+{
+    class Map
+    {
+        static void Main(string[] args)
+        {
+            const int side = 15;
+            //const int FullMapSize = 150;
+            int[,] Map;
+            //int[,] FullMap = new int[FullMapSize, FullMapSize];
+            Map = MapGen(side);
+            for (int i = 0; i < side; i++)
+            {
+                for (int j = 0; j < side; j++)
+                    Console.Write(Map[i, j]);
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+            return;
+        }
+
+        static int[,] MapGen(int side)
+        {
+            int[,] Map = new int[side, side];
+            Random rand = new Random();
+            for (int i = 0; i < side; i++)
+            {
+                for (int j = 0; j < side; j++)
+                    Map[i, j] = rand.Next(0, 2);
+            }
+
+            return Map;
+        }
+    }
+}*/
